@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./assets/antique-book-shelf-vintage-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Cria 5 colunas com a mesma largura */
+    gap: 10px; /* Adiciona espaçamento entre os elementos (opcional) */
+}
+
+input{
+    border: 1px solid #ccc; /* Adiciona uma borda para melhor visualização */
+    padding: 10px;
+    color: black;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.modal-body{
+    color: black;
+}
+
+
+.modal-content{
+    width: 900px;
+}
+
+.modal-dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+th, td{
+    width: 300px;
+}
+
+img{
+    width: 600px;
+}
+
